@@ -1,0 +1,630 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+<!-- Products to Buy -->
+<!--=============== Industrial ====================-->
+<RecipeDef>
+    <defName>BuyComponentIndustrial</defName>
+    <label>buy component</label>
+    <description>Miscellaneous gears, capacitors, circuit boards, tubes, wheels, sensors, wires, chips, processors, and other electronic and industrial parts. Necessary for assembling complex machines or electronics.</description>
+    <jobString>buying component</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <ComponentIndustrial>1</ComponentIndustrial>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>7</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyComponentSpacer</defName>
+    <label>buy advanced component</label>
+    <description>Advanced computing and energy-directing machinery, miniaturized and hardened for the most demanding applications.</description>
+    <jobString>buying advanced component</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <ComponentSpacer>1</ComponentSpacer>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>400</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyReinforcedBarrel</defName>
+    <label>buy reinforced barrel</label>
+    <description>A large barrel for projectile-based weapons like mortars. In order to hold the high launch pressures, it is specially reinforced and cannot be manufactured at a small scale.</description>
+    <jobString>buying reinforced barrel</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <ReinforcedBarrel>1</ReinforcedBarrel>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>120</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<!--=============== Medicine ====================-->
+<RecipeDef>
+    <defName>BuyNeutroamine</defName>
+    <label>buy neutroamine</label>
+    <description>A synthetic precursor chemical. While it is useless on its own, many drugs require neutroamine as an ingredient.</description>
+    <jobString>buying neutroamine</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <Neutroamine>1</Neutroamine>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>7</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyMedicineIndustrial</defName>
+    <label>buy medicine</label>
+    <description>A synthetic precursor chemical. While it is useless on its own, many drugs require neutroamine as an ingredient.</description>
+    <jobString>buying medicine</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <MedicineIndustrial>1</MedicineIndustrial>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>4</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyMedicineUltratech</defName>
+    <label>buy glitterworld medicine</label>
+    <description>A kit of advanced ultra-tech medical supplies, probably manufactured on a distant glitterworld. It contains advanced polymorphic drugs, nanite diagnostic and healing assisters, a mini-imager, and various multi-use tools.</description>
+    <jobString>buying glitterworld medicine</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <MedicineUltratech>1</MedicineUltratech>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>100</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyLuciferium</defName>
+    <label>buy luciferium</label>
+    <description>A concoction of mechanites that dramatically improve the body's functioning in all respects. Over time, it can even heal old scarred-over wounds or brain damage, though it cannot regenerate lost limbs. Unfortunately, without the moderating effects of regular doses every five or six days, the mechanites lose cohesion, causing continuous berserk rages and, eventually, death.\n\nAfter the first dose, there is no way to get the mechanites out, ever.\n\nOn the urbworlds, they call Luciferium the 'Devil's Bargain'. Many have been forced to kill friends when no more of the seductive red pills could be found.</description>
+    <jobString>buying luciferium medicine</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <Luciferium>1</Luciferium>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>14</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyGoJuice</defName>
+    <label>buying go-juice</label>
+    <description>A synthetic performance-enhancing drug developed for space marines during the early days of interplanetary warfare. Go-juice blocks pain, increases movement speed, and improves the user's melee and shooting abilities.\n\nThe military chemists who created it were never able to remove its addictiveness. Some saw this as a downside; others saw it as a benefit.</description>
+    <jobString>buying go-juice</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <GoJuice>1</GoJuice>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>10</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyWakeUp</defName>
+    <label>buy wake-up</label>
+    <description>A synthetic stimulant. Wake-up fills the user's need for rest, allowing them to work for extended periods without getting tired. However, taking wake-up runs the risk of developing an addiction.\n\nIn the most competitive universities and companies of many worlds, high-achievers are sometimes called 'wake-ups' because of the association with this drug.</description>
+    <jobString>buying wake-up</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <WakeUp>1</WakeUp>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>4</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+
+
+<!-- Exotics -->
+<RecipeDef>
+    <defName>BuyAIPersonaCore</defName>
+    <label>buy persona core</label>
+    <description>A hyper-advanced computer core that houses a peak-human-equivalent machine persona. In its isolated state, the core is dormant. Installed in a proper support structure, however, it can become a mind of great power.</description>
+    <jobString>buying persona core</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <AIPersonaCore>1</AIPersonaCore>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>800</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyMechSerumHealer</defName>
+    <label>buy healer mech serum</label>
+    <description>A one-use super-dose of mechanites tuned to heal health conditions. The mechanites will target and heal the single worst health condition affecting someone at any given time. Works even on health conditions that would otherwise be incurable. The mechanites can even transmute themselves into organic matter, forming new limbs or organs as needed.</description>
+    <jobString>buying healer mech serum</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <MechSerumHealer>1</MechSerumHealer>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>260</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyMechSerumResurrector</defName>
+    <label>buy resurrector mech serum</label>
+    <description>A one-use super-dose of mechanites tuned to resurrect the dead. Administered to a corpse, mechanites repair broken-down tissues and kickstart the body back to life. Unfortunately, the resurrected sometimes come back with brain damage, blindness, or progressive psychosis. Outcomes are better when the mechanites are administered to a fresher body. If a body is preserved, it can even be resurrected long after death.</description>
+    <jobString>buying resurrector mech serum</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <MechSerumResurrector>1</MechSerumResurrector>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>340</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyTechprofSubpersonaCore</defName>
+    <label>buy techprof subpersona core</label>
+    <description>A small AI core housing a low-grade subpersona specialized in teaching technology. When used, the AI will teach you the technology you're currently researching, instantly and for free. Can only be used once.</description>
+    <jobString>buying resurrector mech serum</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <TechprofSubpersonaCore>1</TechprofSubpersonaCore>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>200</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+
+<!-- BIONICS -->
+
+<RecipeDef>
+    <defName>BuyBionicEye</defName>
+    <label>buy bionic eye</label>
+    <description>An advanced artificial eye. With its biogel nerve-link, internal signal pre-processor, and wide-spectrum sensors, it is better than a biological eye in almost every way. A lattice-dust healing system allows it to recover from damage.</description>
+    <jobString>buying bionic eye</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <BionicEye>1</BionicEye>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>40</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+
+<RecipeDef>
+    <defName>BuyBionicArm</defName>
+    <label>buy bionic arm</label>
+    <description>An advanced artificial arm. Silenced mini-servos give great strength, while the biogel nerve-link gives exquisite control. A lattice-dust healing system allows it to recover from damage. It is better than a biological arm in almost every way.</description>
+    <jobString>buying bionic arm</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <BionicArm>1</BionicArm>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>40</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyBionicLeg</defName>
+    <label>buy bionic leg</label>
+    <description>An advanced artificial leg. With its biogel nerve-link, powerful mini-servos, and lattice-dust healing system, it is better than a biological leg in almost every way.</description>
+    <jobString>buying bionic leg</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <BionicLeg>1</BionicLeg>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>40</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+
+<RecipeDef>
+    <defName>BuyBionicHeart</defName>
+    <label>buy bionic heart</label>
+    <description>An advanced artificial heart. It has synthetic muscle fibers for a realistic heartbeat, plus a high-flow pump for rapid circulation during high stress. It is better than a biological heart in almost every way.</description>
+    <jobString>buying bionic heart</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <BionicHeart>1</BionicHeart>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>40</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+
+
+<RecipeDef>
+    <defName>BuyBionicStomach</defName>
+    <label>buy bionic stomach</label>
+    <description>An advanced artificial stomach. A set of sensors and chemical synthesizers efficiently digest nearly any energy-bearing foodstuff. An integrated lattice-dust healing system automatically repairs any damage caused by the powerful acids. It is better than a biological stomach in almost every way.</description>
+    <jobString>buying bionic stomach</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <BionicStomach>1</BionicStomach>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>40</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyBionicSpine</defName>
+    <label>buy bionic stomach</label>
+    <description>An advanced artificial spine. A biogel nerve bundle runs down an articulated plasteel core, surrounded by a lattice-dust healing system. It matches the performance of a biological spine.</description>
+    <jobString>buying bionic spine</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <BionicSpine>1</BionicSpine>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>40</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+
+<RecipeDef>
+    <defName>BuyBionicEar</defName>
+    <label>buy bionic ear</label>
+    <description>An advanced artificial ear implant. A collection of invisible subdermal microphones capture sound and transmit it to a biogel nerve interface that links directly with the auditory nerve. It's sensitive enough to hear a cat before you see it, can't be damaged by loud noise, and automatically tunes itself to pick out meaningful sounds in noisy environments.</description>
+    <jobString>buying bionic ear</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <BionicEar>1</BionicEar>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>40</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+
+<RecipeDef>
+    <defName>BuyLoveEnhancer</defName>
+    <label>buy love enhancer</label>
+    <description>Humans have always tried to use every new technology to enhance sexual satisfaction. Bionics were no exception. This implant makes physical and chemical changes to the body which enhance the experience of lovin' for both partners - both physically and psychologically. The implant unit can adapt to enhance both men and women upon being implanted.</description>
+    <jobString>buying love enhancer</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <LoveEnhancer>1</LoveEnhancer>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>40</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<!--======================================================= Continuation ============================================================-->
+
+<RecipeDef>
+    <defName>BuyPsychicAmplifier</defName>
+    <label>buy psylink neuroformer</label>
+    <description>Too Lazy</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <PsychicAmplifier>1</PsychicAmplifier>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>5000</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+
+<RecipeDef>
+    <defName>BuyMechchip</defName>
+    <label>Buy Mech Chip</label>
+    <description>Too lazy</description>
+    <jobString>buying mech chip</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <Mechlink>1</Mechlink>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>5000</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyDeathrest</defName>
+    <label>Buy DeathSerum</label>
+    <description>Too lazy</description>
+    <jobString>buying deathrest serum</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <DeathrestCapacitySerum>1</DeathrestCapacitySerum>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>2000</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyArchite</defName>
+    <label>Buy archite capsule</label>
+    <description>Too lazy</description>
+    <jobString>buying archite capsule</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <DeathrestCapacitySerum>1</DeathrestCapacitySerum>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>2500</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuySteel</defName>
+    <label>Buy Steel</label>
+    <description>Too lazy</description>
+    <jobString>buying steel</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <Steel>100</Steel>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>100</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuySignal</defName>
+    <label>Buy Signal Chip</label>
+    <description>Too lazy</description>
+    <jobString>buying signal chip</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <SignalChip>1</SignalChip>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>2000</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyPower</defName>
+    <label>Buy Powerfocus Chip</label>
+    <description>Too lazy</description>
+    <jobString>buying pf chip</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <PowerfocusChip>1</PowerfocusChip>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>5000</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyNanostructuringChip</defName>
+    <label>Buy Nanostructuring Chip</label>
+    <description>Too lazy</description>
+    <jobString>buying ns chip</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <NanostructuringChip>1</NanostructuringChip>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>10000</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+</Defs>
