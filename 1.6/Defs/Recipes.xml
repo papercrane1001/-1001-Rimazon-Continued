@@ -462,7 +462,7 @@
 <RecipeDef>
     <defName>BuyPsychicAmplifier</defName>
     <label>buy psylink neuroformer</label>
-    <description>Too Lazy</description>
+    <description>A one-use psychic amplifier. When used, it forms a psylink in the user's brain, unlocking latent psychic abilities. The neuroformer is a tightly-guarded ultratech device, coveted by those seeking to harness psychic power.</description>
     <jobString>buying psylink neuroformer</jobString>
     <workAmount>1</workAmount>
     <products>
@@ -484,7 +484,7 @@
 <RecipeDef>
     <defName>BuyMechchip</defName>
     <label>Buy Mech Chip</label>
-    <description>Too lazy</description>
+    <description>A compact ultratech chip containing encrypted protocols and control codes for interfacing with mechanoids. When installed, it allows the user to command and control mechanoids directly.</description>
     <jobString>buying mech chip</jobString>
     <workAmount>1</workAmount>
     <products>
@@ -505,7 +505,7 @@
 <RecipeDef>
     <defName>BuyDeathrest</defName>
     <label>Buy DeathSerum</label>
-    <description>Too lazy</description>
+    <description>A rare ultratech serum that enhances the body's ability to undergo deathrest, increasing the maximum number of deathrest buildings a person can benefit from. Coveted by sanguophages and those seeking to push the limits of deathrest.</description>
     <jobString>buying deathrest serum</jobString>
     <workAmount>1</workAmount>
     <products>
@@ -526,7 +526,7 @@
 <RecipeDef>
     <defName>BuyArchite</defName>
     <label>Buy archite capsule</label>
-    <description>Too lazy</description>
+    <description>A rare ultratech capsule containing archites—self-replicating nanomachines capable of rewriting biological systems. Used in advanced genetic and mechanite procedures, archite capsules are coveted by those seeking to transcend human limitations.</description>
     <jobString>buying archite capsule</jobString>
     <workAmount>1</workAmount>
     <products>
@@ -547,7 +547,7 @@
 <RecipeDef>
     <defName>BuySteel</defName>
     <label>Buy Steel</label>
-    <description>Too lazy</description>
+    <description>A strong and versatile metal alloy, steel is the backbone of construction and manufacturing across the rim. Used for building structures, crafting weapons, and making machinery.</description>
     <jobString>buying steel</jobString>
     <workAmount>1</workAmount>
     <products>
@@ -568,7 +568,7 @@
 <RecipeDef>
     <defName>BuyPlasteel</defName>
     <label>Buy Plasteel</label>
-    <description>Too lazy</description>
+    <description>An advanced composite material combining steel with ultratech polymers. Plasteel is extremely strong, lightweight, and resistant to heat and corrosion, making it essential for high-end construction, armor, and weapons.</description>
     <jobString>buying plasteel</jobString>
     <workAmount>1</workAmount>
     <products>
@@ -589,7 +589,7 @@
 <RecipeDef>
     <defName>BuyGold</defName>
     <label>Buy Gold</label>
-    <description>Too lazy</description>
+    <description>A precious and highly conductive metal, gold is valued for its beauty, rarity, and utility in advanced electronics and art. Used in trade, crafting, and high-tech construction across the rim.</description>
     <jobString>buying gold</jobString>
     <workAmount>1</workAmount>
     <products>
@@ -610,7 +610,7 @@
 <RecipeDef>
     <defName>BuySignal</defName>
     <label>Buy Signal Chip</label>
-    <description>Too lazy</description>
+    <description>An ultratech microchip packed with advanced signal processing hardware and encrypted protocols. Essential for controlling and communicating with high-level mechanoids and complex machinery.</description>
     <jobString>buying signal chip</jobString>
     <workAmount>1</workAmount>
     <products>
@@ -631,7 +631,7 @@
 <RecipeDef>
     <defName>BuyPower</defName>
     <label>Buy Powerfocus Chip</label>
-    <description>Too lazy</description>
+    <description>An ultratech microchip designed to amplify and focus psychic energy. Used in advanced psylink upgrades and high-level mechanitor equipment, the powerfocus chip is coveted for its ability to unlock greater psychic potential.</description>
     <jobString>buying pf chip</jobString>
     <workAmount>1</workAmount>
     <products>
@@ -651,9 +651,9 @@
 
 <RecipeDef>
     <defName>BuyNanostructuringChip</defName>
-    <label>Buy Nanostructuring Chip</label>
+    <description>An ultratech microchip containing advanced nanite programming and fabrication protocols. Used for high-level mechanitor upgrades and complex genetic engineering, the nanostructuring chip is essential for unlocking the most powerful technologies on the rim.</description>
     <description>Too lazy</description>
-    <jobString>buying ns chip</jobString>
+    <jobString>buying nanostructuring chip</jobString>
     <workAmount>1</workAmount>
     <products>
         <NanostructuringChip>1</NanostructuringChip>
