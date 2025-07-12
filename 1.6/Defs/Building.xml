@@ -12,7 +12,6 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
-    <costStuffCount>75</costStuffCount>
     <costList>
       <Steel>30</Steel>
       <ComponentIndustrial>2</ComponentIndustrial>
@@ -52,14 +51,15 @@
       <li>BuyBionicEar</li>
       <li>BuyPsychicAmplifier</li>
       <li>BuyLoveEnhancer</li>
-	  <li>BuyPsychicAmplifier</li>
-	  <li>BuyMechchip</li>
-	  <li>BuyDeathrest</li>
-	  <li>BuyArchite</li>
-	  <li>BuySteel</li>
-	  <li>BuySignal</li>
-	  <li>BuyPower</li>
-	  <li>BuyNanostructuringChip</li>
+	    <li>BuyMechchip</li>
+	    <li>BuyDeathrest</li>
+	    <li>BuyArchite</li>
+	    <li>BuySteel</li>
+      <li>BuyPlasteel</li>
+      <li>BuyGold</li>
+	    <li>BuySignal</li>
+	    <li>BuyPower</li>
+	    <li>BuyNanostructuringChip</li>
     </recipes>
     <inspectorTabs>
       <li>ITab_Bills</li>
@@ -75,9 +75,6 @@
       </buildingTags>
     </building>
     <comps>
-      <li>
-        <compClass>CompReportWorkSpeed</compClass>
-      </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>500</basePowerConsumption>

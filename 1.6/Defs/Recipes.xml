@@ -10,7 +10,7 @@
     <jobString>buying component</jobString>
     <workAmount>1</workAmount>
     <products>
-        <ComponentIndustrial>1</ComponentIndustrial>
+        <ComponentIndustrial>5</ComponentIndustrial>
     </products>
     <ingredients>
         <li>
@@ -19,7 +19,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>7</count>
+            <count>70</count>
         </li>
     </ingredients>
 </RecipeDef>
@@ -462,7 +462,8 @@
 <RecipeDef>
     <defName>BuyPsychicAmplifier</defName>
     <label>buy psylink neuroformer</label>
-    <description>Too Lazy</jobString>
+    <description>Too Lazy</description>
+    <jobString>buying psylink neuroformer</jobString>
     <workAmount>1</workAmount>
     <products>
         <PsychicAmplifier>1</PsychicAmplifier>
@@ -560,6 +561,48 @@
                 </thingDefs>
             </filter>
             <count>100</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyPlasteel</defName>
+    <label>Buy Plasteel</label>
+    <description>Too lazy</description>
+    <jobString>buying plasteel</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <Plasteel>100</Plasteel>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>700</count>
+        </li>
+    </ingredients>
+</RecipeDef>
+
+<RecipeDef>
+    <defName>BuyGold</defName>
+    <label>Buy Gold</label>
+    <description>Too lazy</description>
+    <jobString>buying gold</jobString>
+    <workAmount>1</workAmount>
+    <products>
+        <Gold>10</Gold>
+    </products>
+    <ingredients>
+        <li>
+            <filter>
+                <thingDefs>
+                    <li>Silver</li>
+                </thingDefs>
+            </filter>
+            <count>500</count>
         </li>
     </ingredients>
 </RecipeDef>
