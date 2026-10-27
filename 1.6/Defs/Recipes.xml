@@ -19,7 +19,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>7</count>
+            <count>70</count>
         </li>
     </ingredients>
 </RecipeDef>
@@ -40,7 +40,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>40</count>
+            <count>400</count>
         </li>
     </ingredients>
 </RecipeDef>
@@ -61,7 +61,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>12</count>
+            <count>120</count>
         </li>
     </ingredients>
 </RecipeDef>
@@ -497,7 +497,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>500</count>
+            <count>5000</count>
         </li>
     </ingredients>
 </RecipeDef>
@@ -518,7 +518,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>200</count>
+            <count>2000</count>
         </li>
     </ingredients>
 </RecipeDef>
@@ -539,7 +539,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>250</count>
+            <count>2500</count>
         </li>
     </ingredients>
 </RecipeDef>
@@ -560,7 +560,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>10</count>
+            <count>100</count>
         </li>
     </ingredients>
 </RecipeDef>
