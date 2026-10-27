@@ -19,7 +19,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>70</count>
+            <count>12</count>
         </li>
     </ingredients>
 </RecipeDef>
@@ -40,7 +40,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>400</count>
+            <count>40</count>
         </li>
     </ingredients>
 </RecipeDef>
@@ -91,7 +91,7 @@
 <RecipeDef>
     <defName>BuyMedicineIndustrial</defName>
     <label>buy medicine</label>
-    <description>A medical kit for all situations.  Reasonable quality.  </description>
+    <description>A medical kit for all situations.  Reasonable quality.</description>
     <jobString>buying medicine</jobString>
     <workAmount>1</workAmount>
     <products>
@@ -497,7 +497,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>5000</count>
+            <count>500</count>
         </li>
     </ingredients>
 </RecipeDef>
@@ -518,7 +518,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>2000</count>
+            <count>200</count>
         </li>
     </ingredients>
 </RecipeDef>
@@ -530,7 +530,7 @@
     <jobString>buying archite capsule</jobString>
     <workAmount>1</workAmount>
     <products>
-        <DeathrestCapacitySerum>1</DeathrestCapacitySerum>
+        <ArchiteCapsule>1</ArchiteCapsule>
     </products>
     <ingredients>
         <li>
@@ -539,7 +539,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>2500</count>
+            <count>250</count>
         </li>
     </ingredients>
 </RecipeDef>
@@ -560,7 +560,7 @@
                     <li>Silver</li>
                 </thingDefs>
             </filter>
-            <count>100</count>
+            <count>10</count>
         </li>
     </ingredients>
 </RecipeDef>
